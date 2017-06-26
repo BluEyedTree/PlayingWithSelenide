@@ -13,8 +13,8 @@ public class Sele {
 	  System.setProperty("webdriver.chrome.driver",
 		           "/Users/Tom/Documents/workspace/WebDrive/repo/PlayingWithSelenide/Resources/chromedriver");
 	  System.setProperty("selenide.browser", "chrome");
-	  open("http://google.com/ncr");
-	    //$(By.name("q")).val("selenide").pressEnter();
+	  open("http://www.msn.com");
+	    $(By.id("q")).val("Test100Tommy00Test00OK").pressEnter();
   }
   
 }
